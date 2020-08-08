@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YVw-nB-t5x">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-MediumItalic.ttf">
+            <string>Ubuntu-MediumItalic</string>
+        </array>
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Xep-Om-e0D">
+            <objects>
+                <viewController id="YVw-nB-t5x" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XDI-2i-jok">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="android-chrome-512x512" translatesAutoresizingMaskIntoConstraints="NO" id="ErR-6E-zeH">
+                                <rect key="frame" x="157" y="403" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Dwu-hc-lhx"/>
+                                    <constraint firstAttribute="height" constant="100" id="WQ9-lm-5PC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ErR-6E-zeH" firstAttribute="centerX" secondItem="dzp-hS-iFZ" secondAttribute="centerX" id="AZz-hk-EGi"/>
+                            <constraint firstItem="ErR-6E-zeH" firstAttribute="centerY" secondItem="dzp-hS-iFZ" secondAttribute="centerY" id="bB1-Vt-fhN"/>
+                            <constraint firstItem="ErR-6E-zeH" firstAttribute="centerY" secondItem="dzp-hS-iFZ" secondAttribute="centerY" id="mNg-RP-ipi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dzp-hS-iFZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T5R-61-aD4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-670" y="114"/>
+        </scene>
+        <!--DetailViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" title="DetailViewController" id="BYZ-38-t0r" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iCx-4J-Upk">
+                                <rect key="frame" x="35" y="409" width="344" height="88"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your Name ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sry-l5-3lD">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="18"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Name." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S1m-zW-rMC">
+                                        <rect key="frame" x="0.0" y="38" width="344" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="EF7-9Q-Bra"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFy-Gm-AMw">
+                                <rect key="frame" x="319" y="791" width="60" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="1Lw-Il-3iQ"/>
+                                    <constraint firstAttribute="height" constant="35" id="jQL-hO-oJQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-MediumItalic" family="Ubuntu" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.062745098040000002" green="0.094117647060000004" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iCx-4J-Upk" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4Sr-7c-K8w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iCx-4J-Upk" secondAttribute="trailing" constant="35" id="BIx-sU-1f0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YFy-Gm-AMw" secondAttribute="bottom" constant="36" id="NLX-n1-EwT"/>
+                            <constraint firstItem="iCx-4J-Upk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="Zeg-ws-geV"/>
+                            <constraint firstItem="YFy-Gm-AMw" firstAttribute="trailing" secondItem="iCx-4J-Upk" secondAttribute="trailing" id="sXW-zl-R96"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="android-chrome-512x512" width="170.5" height="170.5"/>
+    </resources>
+</document>
