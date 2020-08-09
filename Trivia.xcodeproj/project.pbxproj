@@ -3,14 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A10665124DE934D00802A86 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A10665024DE934D00802A86 /* SplashViewController.swift */; };
+		0A10665424DE9CB300802A86 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A10665324DE9CB300802A86 /* DetailViewModel.swift */; };
+		0A31152424DF7C3800D8A642 /* FinalDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31152324DF7C3800D8A642 /* FinalDetailViewModel.swift */; };
 		0A3BA1BC24DE8B9A00B25E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BA1BB24DE8B9A00B25E0B /* AppDelegate.swift */; };
 		0A3BA1BE24DE8B9A00B25E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BA1BD24DE8B9A00B25E0B /* SceneDelegate.swift */; };
-		0A3BA1C024DE8B9A00B25E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BA1BF24DE8B9A00B25E0B /* ViewController.swift */; };
+		0A3BA1C024DE8B9A00B25E0B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BA1BF24DE8B9A00B25E0B /* DetailViewController.swift */; };
 		0A3BA1C324DE8B9A00B25E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BA1C124DE8B9A00B25E0B /* Main.storyboard */; };
 		0A3BA1C524DE8B9C00B25E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BA1C424DE8B9C00B25E0B /* Assets.xcassets */; };
 		0A3BA1C824DE8B9C00B25E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BA1C624DE8B9C00B25E0B /* LaunchScreen.storyboard */; };
@@ -22,14 +24,30 @@
 		0A3BA1DD24DE8D0600B25E0B /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BA1D524DE8D0600B25E0B /* Ubuntu-Italic.ttf */; };
 		0A3BA1DE24DE8D0600B25E0B /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BA1D624DE8D0600B25E0B /* Ubuntu-LightItalic.ttf */; };
 		0A3BA1DF24DE8D0600B25E0B /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BA1D724DE8D0600B25E0B /* Ubuntu-MediumItalic.ttf */; };
+		0A4D15D524DEEC2B004D9B9E /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D15D424DEEC2B004D9B9E /* DependencyInjector.swift */; };
+		0A4D15D824DEEC5D004D9B9E /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D15D724DEEC5D004D9B9E /* PreferenceManager.swift */; };
+		0A4FDB6824DFB03500324236 /* MatSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FDB6724DFB03500324236 /* MatSnackBar.swift */; };
+		0A50A18224DEFCF0002A1744 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50A18124DEFCF0002A1744 /* UserData.swift */; };
+		0A50A18424DF16A5002A1744 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50A18324DF16A5002A1744 /* UserRepository.swift */; };
+		0A50A18824DF2102002A1744 /* FinalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50A18724DF2102002A1744 /* FinalDetailViewController.swift */; };
+		0A50A18A24DF23FE002A1744 /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50A18924DF23FE002A1744 /* HistoryDetailViewController.swift */; };
+		0A50A18D24DF24A4002A1744 /* HistoryDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50A18B24DF24A4002A1744 /* HistoryDetailCollectionViewCell.swift */; };
+		0A50A19024DF2980002A1744 /* HisoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50A18F24DF2980002A1744 /* HisoryDetailViewModel.swift */; };
+		0A51CEAC24DF9D0700F33C79 /* HistoryDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A51CEAA24DF9D0700F33C79 /* HistoryDetailCollectionViewCell.xib */; };
+		0A87468924DEF446002005EE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87468824DEF446002005EE /* BaseViewController.swift */; };
+		0A9715AE24DEE056003C84A4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9715AD24DEE056003C84A4 /* QuestionViewController.swift */; };
+		0AF5A48324DEE9F3009D1BCF /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5A48224DEE9F3009D1BCF /* QuestionViewModel.swift */; };
+		A9CF9079D5045C6F47E961A4 /* Pods_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9271A76B477119A2E70CBA9B /* Pods_Trivia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A10665024DE934D00802A86 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0A10665324DE9CB300802A86 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		0A31152324DF7C3800D8A642 /* FinalDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalDetailViewModel.swift; sourceTree = "<group>"; };
 		0A3BA1B824DE8B9A00B25E0B /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3BA1BB24DE8B9A00B25E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A3BA1BD24DE8B9A00B25E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A3BA1BF24DE8B9A00B25E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A3BA1BF24DE8B9A00B25E0B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0A3BA1C224DE8B9A00B25E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A3BA1C424DE8B9C00B25E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3BA1C724DE8B9C00B25E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +60,22 @@
 		0A3BA1D524DE8D0600B25E0B /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
 		0A3BA1D624DE8D0600B25E0B /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
 		0A3BA1D724DE8D0600B25E0B /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0A4D15D424DEEC2B004D9B9E /* DependencyInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		0A4D15D724DEEC5D004D9B9E /* PreferenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
+		0A4FDB6724DFB03500324236 /* MatSnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatSnackBar.swift; sourceTree = "<group>"; };
+		0A50A18124DEFCF0002A1744 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		0A50A18324DF16A5002A1744 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		0A50A18724DF2102002A1744 /* FinalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalDetailViewController.swift; sourceTree = "<group>"; };
+		0A50A18924DF23FE002A1744 /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
+		0A50A18B24DF24A4002A1744 /* HistoryDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A50A18F24DF2980002A1744 /* HisoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryDetailViewModel.swift; sourceTree = "<group>"; };
+		0A51CEAA24DF9D0700F33C79 /* HistoryDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		0A87468824DEF446002005EE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0A9715AD24DEE056003C84A4 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		0AF5A48224DEE9F3009D1BCF /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		3220AE0D779E2A9F3394249B /* Pods-Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.release.xcconfig"; path = "Target Support Files/Pods-Trivia/Pods-Trivia.release.xcconfig"; sourceTree = "<group>"; };
+		9271A76B477119A2E70CBA9B /* Pods_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D303BDCD84ED17AC97A78D /* Pods-Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.debug.xcconfig"; path = "Target Support Files/Pods-Trivia/Pods-Trivia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9CF9079D5045C6F47E961A4 /* Pods_Trivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +94,16 @@
 			isa = PBXGroup;
 			children = (
 				0A10665024DE934D00802A86 /* SplashViewController.swift */,
+				0A3BA1BF24DE8B9A00B25E0B /* DetailViewController.swift */,
+				0A10665324DE9CB300802A86 /* DetailViewModel.swift */,
+				0A9715AD24DEE056003C84A4 /* QuestionViewController.swift */,
+				0AF5A48224DEE9F3009D1BCF /* QuestionViewModel.swift */,
+				0A50A18724DF2102002A1744 /* FinalDetailViewController.swift */,
+				0A31152324DF7C3800D8A642 /* FinalDetailViewModel.swift */,
+				0A50A18924DF23FE002A1744 /* HistoryDetailViewController.swift */,
+				0A50A18F24DF2980002A1744 /* HisoryDetailViewModel.swift */,
+				0A50A18B24DF24A4002A1744 /* HistoryDetailCollectionViewCell.swift */,
+				0A51CEAA24DF9D0700F33C79 /* HistoryDetailCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -68,6 +113,8 @@
 			children = (
 				0A3BA1BA24DE8B9A00B25E0B /* Trivia */,
 				0A3BA1B924DE8B9A00B25E0B /* Products */,
+				C38DFE5FFC773F14BD477DE8 /* Pods */,
+				0F7D97060F640EDC75151115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,15 +129,20 @@
 		0A3BA1BA24DE8B9A00B25E0B /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
-				0A10665224DE936800802A86 /* View */,
 				0A3BA1BB24DE8B9A00B25E0B /* AppDelegate.swift */,
+				0A87468824DEF446002005EE /* BaseViewController.swift */,
 				0A3BA1BD24DE8B9A00B25E0B /* SceneDelegate.swift */,
-				0A3BA1BF24DE8B9A00B25E0B /* ViewController.swift */,
+				0A50A18024DEFCC7002A1744 /* DataModel */,
+				0A4D15DA24DEECAC004D9B9E /* Repository */,
+				0A4D15D624DEEC5D004D9B9E /* Core */,
+				0A4D15D324DEEC2B004D9B9E /* di */,
+				0A10665224DE936800802A86 /* View */,
 				0A3BA1C124DE8B9A00B25E0B /* Main.storyboard */,
 				0A3BA1C424DE8B9C00B25E0B /* Assets.xcassets */,
 				0A3BA1CF24DE8CAE00B25E0B /* resource */,
 				0A3BA1C624DE8B9C00B25E0B /* LaunchScreen.storyboard */,
 				0A3BA1C924DE8B9C00B25E0B /* Info.plist */,
+				0A4FDB6724DFB03500324236 /* MatSnackBar.swift */,
 			);
 			path = Trivia;
 			sourceTree = "<group>";
@@ -110,6 +162,55 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
+		0A4D15D324DEEC2B004D9B9E /* di */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D15D424DEEC2B004D9B9E /* DependencyInjector.swift */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		0A4D15D624DEEC5D004D9B9E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D15D724DEEC5D004D9B9E /* PreferenceManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0A4D15DA24DEECAC004D9B9E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0A50A18324DF16A5002A1744 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		0A50A18024DEFCC7002A1744 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A50A18124DEFCF0002A1744 /* UserData.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		0F7D97060F640EDC75151115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9271A76B477119A2E70CBA9B /* Pods_Trivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38DFE5FFC773F14BD477DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5D303BDCD84ED17AC97A78D /* Pods-Trivia.debug.xcconfig */,
+				3220AE0D779E2A9F3394249B /* Pods-Trivia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A3BA1CC24DE8B9C00B25E0B /* Build configuration list for PBXNativeTarget "Trivia" */;
 			buildPhases = (
+				222E072037742CFF7F65160A /* [CP] Check Pods Manifest.lock */,
 				0A3BA1B424DE8B9A00B25E0B /* Sources */,
 				0A3BA1B524DE8B9A00B25E0B /* Frameworks */,
 				0A3BA1B624DE8B9A00B25E0B /* Resources */,
+				3E959EE43D829BF6A0F99EEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +275,7 @@
 				0A3BA1D824DE8D0600B25E0B /* Ubuntu-Regular.ttf in Resources */,
 				0A3BA1D924DE8D0600B25E0B /* Ubuntu-BoldItalic.ttf in Resources */,
 				0A3BA1DB24DE8D0600B25E0B /* Ubuntu-Light.ttf in Resources */,
+				0A51CEAC24DF9D0700F33C79 /* HistoryDetailCollectionViewCell.xib in Resources */,
 				0A3BA1DA24DE8D0600B25E0B /* Ubuntu-Medium.ttf in Resources */,
 				0A3BA1DD24DE8D0600B25E0B /* Ubuntu-Italic.ttf in Resources */,
 				0A3BA1DC24DE8D0600B25E0B /* Ubuntu-Bold.ttf in Resources */,
@@ -184,14 +288,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		222E072037742CFF7F65160A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E959EE43D829BF6A0F99EEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A3BA1B424DE8B9A00B25E0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3BA1C024DE8B9A00B25E0B /* ViewController.swift in Sources */,
+				0A50A18D24DF24A4002A1744 /* HistoryDetailCollectionViewCell.swift in Sources */,
+				0A4D15D524DEEC2B004D9B9E /* DependencyInjector.swift in Sources */,
+				0A50A18824DF2102002A1744 /* FinalDetailViewController.swift in Sources */,
+				0A50A19024DF2980002A1744 /* HisoryDetailViewModel.swift in Sources */,
+				0A3BA1C024DE8B9A00B25E0B /* DetailViewController.swift in Sources */,
+				0A50A18424DF16A5002A1744 /* UserRepository.swift in Sources */,
+				0AF5A48324DEE9F3009D1BCF /* QuestionViewModel.swift in Sources */,
 				0A3BA1BC24DE8B9A00B25E0B /* AppDelegate.swift in Sources */,
+				0A4D15D824DEEC5D004D9B9E /* PreferenceManager.swift in Sources */,
+				0A50A18224DEFCF0002A1744 /* UserData.swift in Sources */,
+				0A31152424DF7C3800D8A642 /* FinalDetailViewModel.swift in Sources */,
+				0A87468924DEF446002005EE /* BaseViewController.swift in Sources */,
+				0A9715AE24DEE056003C84A4 /* QuestionViewController.swift in Sources */,
+				0A10665424DE9CB300802A86 /* DetailViewModel.swift in Sources */,
 				0A3BA1BE24DE8B9A00B25E0B /* SceneDelegate.swift in Sources */,
+				0A4FDB6824DFB03500324236 /* MatSnackBar.swift in Sources */,
+				0A50A18A24DF23FE002A1744 /* HistoryDetailViewController.swift in Sources */,
 				0A10665124DE934D00802A86 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +494,7 @@
 		};
 		0A3BA1CD24DE8B9C00B25E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D303BDCD84ED17AC97A78D /* Pods-Trivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,6 +512,7 @@
 		};
 		0A3BA1CE24DE8B9C00B25E0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3220AE0D779E2A9F3394249B /* Pods-Trivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

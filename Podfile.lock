@@ -1,0 +1,136 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - Differentiator (4.0.1)
+  - MaterialComponents/AnimationTiming (110.3.0)
+  - MaterialComponents/Availability (110.3.0)
+  - MaterialComponents/Buttons (110.3.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (110.3.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (110.3.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (110.3.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (110.3.0)
+  - MaterialComponents/private/Color (110.3.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/KeyboardWatcher (110.3.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (110.3.0)
+  - MaterialComponents/private/Overlay (110.3.0)
+  - MaterialComponents/Ripple (110.3.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (110.3.0)
+  - MaterialComponents/ShadowLayer (110.3.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (110.3.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (110.3.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Snackbar (110.3.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (110.3.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - ObjectMapper (3.5.3)
+  - Realm (5.3.0):
+    - Realm/Headers (= 5.3.0)
+  - Realm/Headers (5.3.0)
+  - RealmSwift (5.3.0):
+    - Realm (= 5.3.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - MaterialComponents/Snackbar
+  - RealmSwift
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Differentiator
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  MaterialComponents: 424da6db40748236c6f071a9e9fbe00aa62033ff
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  Realm: 81b533e4d02518e3e36a702d43a716b48bf89ed6
+  RealmSwift: d8954b0c203d532cfa8412ab18e2da01eb071aa4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: 814daca75e44bc5ab96ba6f7d64db9a79a09b799
+
+COCOAPODS: 1.9.3

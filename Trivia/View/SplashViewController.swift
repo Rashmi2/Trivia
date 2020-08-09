@@ -9,15 +9,19 @@
 import Foundation
 import UIKit
 
-class SplashViewController: UIViewController {
+class SplashViewController: BaseViewController {
     var timer: Timer? = nil
     override func viewDidLoad() {
         super.viewDidLoad()
-        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(navigateTo), userInfo: nil, repeats: false)
+        timer = Timer.scheduledTimer(timeInterval: 4, target: self, selector: #selector(navigateTo), userInfo: nil, repeats: false)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
     
     @objc func navigateTo() {
-        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "LoginInViewController") as? Detail {
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
