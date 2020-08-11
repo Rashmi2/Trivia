@@ -223,14 +223,14 @@ class QuestionViewController: BaseViewController {
 
     
     func addData(key: String, list: [String]) -> [QuestionList] {
-        let objNutrients = QuestionList()
-        var arrNutriants : [QuestionList] = []
+        let objQuestions = QuestionList()
+        var arrQuestions : [QuestionList] = []
         let arrValue = List<String>()
-        objNutrients.key = key
+        objQuestions.key = key
         arrValue.insert(list.joined(), at: 0)
-        objNutrients.values = arrValue.joined()
-        arrNutriants.append(objNutrients)
-        return arrNutriants
+        objQuestions.values = arrValue.joined()
+        arrQuestions.append(objQuestions)
+        return arrQuestions
     }
     
     func clearAll() {
